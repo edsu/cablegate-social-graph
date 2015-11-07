@@ -1,4 +1,4 @@
-This is a little hack that visualizes the social graph of the Wikileaks
+This is a little experiment that visualizes the social graph of the Wikileaks
 CableGate cable messages using the From and To metadata scraped from 
 the message.
 
