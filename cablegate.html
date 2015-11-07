@@ -50,7 +50,7 @@ var force = vis.add(pv.Layout.Force)
 force.link.add(pv.Line);
 
 force.node.add(pv.Dot)
-    .size(function(d) {return Math.sqrt(Math.pow(d.size+10, 2) * 4);})
+    .size(function(d) {return Math.sqrt(Math.pow(d.size+10, 2) * 2);})
     .fillStyle(function(d) nodeColor(d))
     .lineWidth(1)
     .title(function(d) d.nodeTitle + " (" + d.size + " cables)")
